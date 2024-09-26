@@ -1,5 +1,11 @@
 # Towards aerodynamic surrogate modeling based on &beta;-variational autoencoders
 
+## Introduction
+The code in this repository implements a direct pipeline for applying &beta;-variational autoencoders to a given dataset. A further explanation of the implementation and the results can be found at ["Towards aerodynamic surrogate modeling based on &beta;-variational autoencoders", Víctor Francés-Belda, Alberto Solera-Rico, Javier Nieto-Centenero, Esther Andrés, Carlos Sanmiguel Vila, and Rodrigo Castellanos](https://www.arxiv.org/abs/2408.04969)
+
+
+## Structure
+
 Project structure: 
 
 * ```src```
