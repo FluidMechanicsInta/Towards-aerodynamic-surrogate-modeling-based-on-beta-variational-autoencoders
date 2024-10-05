@@ -1,7 +1,12 @@
 # Towards aerodynamic surrogate modeling based on &beta;-variational autoencoders
+![scheme](https://github.com/user-attachments/assets/fa4d8571-3f99-4cc3-93be-37e6aaf86aca)
 
 ## Introduction
-The code in this repository implements a direct pipeline for applying &beta;-variational autoencoders to a given dataset. A further explanation of the implementation and the results can be found at ["Towards aerodynamic surrogate modeling based on &beta;-variational autoencoders", Víctor Francés-Belda, Alberto Solera-Rico, Javier Nieto-Centenero, Esther Andrés, Carlos Sanmiguel Vila, and Rodrigo Castellanos](https://www.arxiv.org/abs/2408.04969).
+
+This repository provides a streamlined pipeline for implementing &beta;-variational autoencoders (&beta;-VAEs) on a given dataset. The &beta;-VAE model identifies a low-dimensional latent space that represents the input features (pressure coefficients) based on the dataset's labels (Mach number and angle of attack). A Gaussian Process Regression (GPR) model is then applied to link the labels to the latent space, enabling feature prediction for unseen labels. The use of Principal Component Analysis (PCA) prior to &beta;-VAE training is also explored, offering significant reductions in time and computational resources.
+
+A further explanation of the implementation and the results can be found at ["Towards aerodynamic surrogate modeling based on &beta;-variational autoencoders", Víctor Francés-Belda, Alberto Solera-Rico, Javier Nieto-Centenero, Esther Andrés, Carlos Sanmiguel Vila, and Rodrigo Castellanos](https://www.arxiv.org/abs/2408.04969).
+
 
 
 ## Structure
